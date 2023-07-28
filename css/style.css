@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #302f2f;
+    font-family: "Roboto";
+}
+
+div {
+    background-color: #3f3f3f;
+    color: white;
+}
+
+li {
+    list-style-type: decimal;
+    
+}
+
+li div {
+    padding-left: 20px;
+}
