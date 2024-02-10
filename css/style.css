@@ -4,7 +4,22 @@ body {
     background-color: #302f2f;
     font-family: "Roboto";
 }
+/* this is kinda sketch but ok */
+#splash {
+    position: absolute;
+    top: 0%; 
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    color:#fFff00;
+    animation: splash 2.5s infinite;
+}
 
+.servername {
+    text-align: center;
+    z-index: 1;
+}
 div {
     background-color: #3f3f3f;
     color: white;
@@ -17,4 +32,12 @@ li {
 
 li div {
     padding-left: 20px;
+}
+@keyframes splash {
+    0%, 100% {
+        transform: scale(1) rotate(-15deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(-15deg);
+    }
 }
