@@ -5,7 +5,10 @@ const splashes = [
     "Brought to you by Source",
     "Garry's Mod 2",
     "Suffering from Brainrot",
-    "Guaranteed Server crash!"
+    "Guaranteed Server crash!",
+    "Check out the GitHub!",
+    "HI PLEASE ENABLE JS",
+    "This is a cry for help"
 ]
 const choice = Math.floor(Math.random()*splashes.length);
 

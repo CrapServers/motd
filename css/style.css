@@ -8,10 +8,9 @@ body {
 #splash {
     position: absolute;
     top: 0%; 
-    left: 60%;
+    left: 55vw;
     transform: translate(-50%, -50%);
     z-index: 2;
-    text-align: center;
     color:#fFff00;
     animation: splash 2.5s infinite;
 }
