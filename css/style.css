@@ -12,13 +12,21 @@ body {
     transform: translate(-50%, -50%);
     z-index: 2;
     color:#fFff00;
-    animation: splash 2.5s infinite;
+    animation: splash ease-out 0.5s infinite;
 }
 
 .servername {
     text-align: center;
     z-index: 1;
 }
+#serverTitleBox {
+    outline: #5a5a5a 2px solid /* bit hacky, basically border styling will cause the header to change its height scale :p */
+}
+
+#serverRules {
+    border: #5a5a5a 2px solid
+}
+
 div {
     background-color: #3f3f3f;
     color: white;
@@ -32,6 +40,7 @@ li {
 li div {
     padding-left: 20px;
 }
+
 @keyframes splash {
     0%, 100% {
         transform: scale(1) rotate(-15deg);
